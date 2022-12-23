@@ -2,11 +2,15 @@ import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import headerImg from "../assets/img/header-img.svg"
+import { HashLink } from 'react-router-hash-link';
+import {
+  BrowserRouter as Router
+} from "react-router-dom";
 
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0)
     const [isDeleting, setIsDeleting] = useState(false);
-    const toRotate = [ "Web Developer", "Web Designer", "Software Engineer"]
+    const toRotate = [ "Web Developer", "Backend Developer", "Software Engineer"]
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     const period = 2000;
@@ -42,19 +46,23 @@ export const Banner = () => {
 
     return (
         <section className="banner" id="home">
-            <Container>
-                <Row className="align-items-center">
-                    <Col xs={12} md={6} xl={7}>
-                        <span className="tagline">Welcome to my Portfolio</span>
-                        <h1>{`Hi! I'm Sean, a `}<span className="wrap">{text}</span></h1>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                        <button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle size={25} /></button>
-                    </Col>
-                    <Col xs={12} md={6} xl={5}>
-                        <img src={headerImg} alt="Header Image" />
-                    </Col>
-                </Row>
-            </Container>
+            <Router>
+                <Container>
+                    <Row className="align-items-center">
+                        <Col xs={12} md={6} xl={7}>
+                            <span className="tagline">Welcome to my Portfolio</span>
+                            <h1>{`Hi! I'm Sean, a `}<span className="wrap">{text}</span></h1>
+                            <p>My name is Sean Evan Seah and I'm a penultimate computer science student at SMU based in Singapore. Born in the dragon year of 2000, I am very passionate in developing web apps. Please take a look at all the past projects I have embarked below!</p>
+                            <HashLink to='#connect' style={{ textDecoration: 'none' }}>
+                                <button><span>Let’s Connect</span><ArrowRightCircle size={25} /></button>
+                            </HashLink>
+                        </Col>
+                        <Col xs={12} md={6} xl={5}>
+                            <img src={headerImg} alt="Header Image" />
+                        </Col>
+                    </Row>
+                </Container>
+            </Router>
         </section>
     )
 }
