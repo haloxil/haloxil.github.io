@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-app/static/css/main.70339ee0.css",
-    "main.js": "/my-app/static/js/main.8655f817.js",
+    "main.js": "/my-app/static/js/main.2609f5ab.js",
     "static/js/787.fb771931.chunk.js": "/my-app/static/js/787.fb771931.chunk.js",
     "static/media/ogs-home.png": "/my-app/static/media/ogs-home.ccd57bcf05b1711ed046.png",
     "static/media/ogs-plant.png": "/my-app/static/media/ogs-plant.51e9c7eaeac9ca71170b.png",
@@ -9,9 +9,12 @@
     "static/media/contact.jpg": "/my-app/static/media/contact.57b346e12db9d45adbc2.jpg",
     "static/media/ogs-ballot.png": "/my-app/static/media/ogs-ballot.80c95763b1df999521d8.png",
     "static/media/ogs-hortpark.png": "/my-app/static/media/ogs-hortpark.97355f6697ffead93d0f.png",
+    "static/media/spp-slide2.png": "/my-app/static/media/spp-slide2.004ac826086960e60ff3.png",
+    "static/media/spp-home.png": "/my-app/static/media/spp-home.97caa422623b997203ed.png",
     "static/media/color-sharp.png": "/my-app/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/ogs-success.png": "/my-app/static/media/ogs-success.0c2572649b5a0cf99171.png",
     "static/media/color-sharp2.png": "/my-app/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
+    "static/media/spp-slide1.png": "/my-app/static/media/spp-slide1.40b6816ebf77b774a811.png",
     "static/media/banner-bg.png": "/my-app/static/media/banner-bg.cc1273af450504afe755.png",
     "static/media/header-img.svg": "/my-app/static/media/header-img.84bf93eb20488a753440bf83d27db7bb.svg",
     "static/media/CentraNo2-Bold.ttf": "/my-app/static/media/CentraNo2-Bold.48e33a55a4142e6e115a.ttf",
@@ -30,11 +33,11 @@
     "index.html": "/my-app/index.html",
     "static/media/nav-icon1.svg": "/my-app/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "main.70339ee0.css.map": "/my-app/static/css/main.70339ee0.css.map",
-    "main.8655f817.js.map": "/my-app/static/js/main.8655f817.js.map",
+    "main.2609f5ab.js.map": "/my-app/static/js/main.2609f5ab.js.map",
     "787.fb771931.chunk.js.map": "/my-app/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.70339ee0.css",
-    "static/js/main.8655f817.js"
+    "static/js/main.2609f5ab.js"
   ]
 }
