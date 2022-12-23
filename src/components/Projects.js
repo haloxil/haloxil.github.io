@@ -7,9 +7,12 @@ import ogsHortPark from "../assets/img/ogs-hortpark.png";
 import ogsPlant from "../assets/img/ogs-plant.png";
 import ogsCommunity from "../assets/img/ogs-community.png";
 import ogsSuccess from "../assets/img/ogs-success.png";
+import sppHome from "../assets/img/spp-home.png"
+import sppSlide1 from "../assets/img/spp-slide1.png"
+import sppSlide2 from "../assets/img/spp-slide2.png"
 
 export const Projects = () => {
-    const projects = [
+    const ogs = [
         {
             title: "Home",
             description: "Homepage of OurGardenStory",
@@ -40,7 +43,25 @@ export const Projects = () => {
             description: "Email sent to user informing of a successful ballot",
             imgUrl: ogsSuccess,
         },
-      ];
+    ];
+
+    const spp = [
+        {
+            title: "Home",
+            description: "Homepage of Slide++",
+            imgUrl: sppHome,
+        },
+        {
+            title: "Slide",
+            description: "Extracting keywords from the slide and then scrapping additional web, video and forumn resources online",
+            imgUrl: sppSlide1,
+        },
+        {
+            title: "Slide",
+            description: "Extracting keywords from the slide and then scrapping additional web, video and forumn resources online",
+            imgUrl: sppSlide2,
+        }
+    ];
 
     return (
         <section className="projects" id="projects">
@@ -62,7 +83,7 @@ export const Projects = () => {
                             <Tab.Pane eventKey="first">
                                 <Row>
                                     {
-                                        projects.map((project, index) => {
+                                        ogs.map((project, index) => {
                                             return (
                                                 <ProjectCard key={index} {...project} />
                                             )
@@ -70,8 +91,17 @@ export const Projects = () => {
                                     }
                                 </Row>
                             </Tab.Pane>
-                            <Tab.Pane eventKey="second">Lorem Ipsum</Tab.Pane>
-                            <Tab.Pane eventKey="third">Lorem Ipsum</Tab.Pane>
+                            <Tab.Pane eventKey="second">
+                                <Row>
+                                    {
+                                        spp.map((project, index) => {
+                                            return (
+                                                <ProjectCard key={index} {...project} />
+                                            )
+                                        })
+                                    }
+                                </Row>
+                            </Tab.Pane>
                         </Tab.Content>
                     </Tab.Container>
                     </Col>
