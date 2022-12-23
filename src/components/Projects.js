@@ -53,12 +53,12 @@ export const Projects = () => {
         },
         {
             title: "Slide",
-            description: "Extracting keywords from the slide and then scrapping additional web, video and forumn resources online",
+            description: "Extracting keywords from the slide and then scrapping additional web, video and forum resources online",
             imgUrl: sppSlide1,
         },
         {
             title: "Slide",
-            description: "Extracting keywords from the slide and then scrapping additional web, video and forumn resources online",
+            description: "Extracting keywords from the slide and then scrapping additional web, video and forum resources online",
             imgUrl: sppSlide2,
         }
     ];
