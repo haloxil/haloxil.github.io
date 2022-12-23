@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.74e2564f.css",
-    "main.js": "/my-app/static/js/main.ab7768f2.js",
+    "main.css": "/my-app/static/css/main.037cd3b5.css",
+    "main.js": "/my-app/static/js/main.9ad754d6.js",
     "static/js/787.fb771931.chunk.js": "/my-app/static/js/787.fb771931.chunk.js",
     "static/media/contact.jpg": "/my-app/static/media/contact.57b346e12db9d45adbc2.jpg",
     "static/media/color-sharp.png": "/my-app/static/media/color-sharp.bea361cfef80fefc2d1e.png",
@@ -16,20 +16,22 @@
     "static/media/project-img3.png": "/my-app/static/media/project-img3.675b30d2f975a1bc1d09.png",
     "static/media/revicons.eot": "/my-app/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/my-app/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/flask.svg": "/my-app/static/media/flask.2cca57813dda05a32e3922b63222945f.svg",
     "static/media/revicons.woff": "/my-app/static/media/revicons.e8746a624ed098489406.woff",
-    "static/media/meter2.svg": "/my-app/static/media/meter2.1b8f416eccd1ee162218b8528a1c5cdc.svg",
-    "static/media/meter1.svg": "/my-app/static/media/meter1.c4085ff859afbd8488e9da47d4953850.svg",
-    "static/media/meter3.svg": "/my-app/static/media/meter3.2201f7e4df22bc4b08180210474f28cc.svg",
+    "static/media/java.svg": "/my-app/static/media/java.68a7587d0b7c3b91fa6a53aa5595305a.svg",
     "static/media/nav-icon3.svg": "/my-app/static/media/nav-icon3.08b285abb8e118b52637efa5d65c5367.svg",
+    "static/media/aws-dynamodb.svg": "/my-app/static/media/aws-dynamodb.ec95976ef79877ae1170da2614198210.svg",
+    "static/media/python.svg": "/my-app/static/media/python.e6d7dc739a91892bbf1f6262412046dd.svg",
     "static/media/nav-icon2.svg": "/my-app/static/media/nav-icon2.815f6d8bc46505dbedf03dc51d4b8bc4.svg",
+    "static/media/springboot.svg": "/my-app/static/media/springboot.d333f33caee4cd8f3993a548646c1852.svg",
     "index.html": "/my-app/index.html",
     "static/media/nav-icon1.svg": "/my-app/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
-    "main.74e2564f.css.map": "/my-app/static/css/main.74e2564f.css.map",
-    "main.ab7768f2.js.map": "/my-app/static/js/main.ab7768f2.js.map",
+    "main.037cd3b5.css.map": "/my-app/static/css/main.037cd3b5.css.map",
+    "main.9ad754d6.js.map": "/my-app/static/js/main.9ad754d6.js.map",
     "787.fb771931.chunk.js.map": "/my-app/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.74e2564f.css",
-    "static/js/main.ab7768f2.js"
+    "static/css/main.037cd3b5.css",
+    "static/js/main.9ad754d6.js"
   ]
 }
