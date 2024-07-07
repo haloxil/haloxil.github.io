@@ -52,7 +52,7 @@ export const Banner = () => {
                         <Col xs={12} md={6} xl={7}>
                             <span className="tagline">Welcome to my Portfolio</span>
                             <h1>{`Hi! I'm Sean, a `}<span className="wrap">{text}</span></h1>
-                            <p>My name is Sean Evan Seah and I'm a penultimate computer science student at SMU based in Singapore. Born in the dragon year of 2000, I am very passionate in developing web apps. Please take a look at all the past projects I have embarked below!</p>
+                            <p>My name is Sean Seah and I'm a final year computer science student at SMU.</p>
                             <HashLink to='#connect' style={{ textDecoration: 'none' }}>
                                 <button><span>Let’s Connect</span><ArrowRightCircle size={25} /></button>
                             </HashLink>
