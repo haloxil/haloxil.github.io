@@ -69,9 +69,11 @@ export const Contact = () => {
                                 <Col sm={6} className="px-1">
                                     <input type="email" name="user_email" value={formDetails.email} placeholder="Email Address" onChange={(e) => onFormUpdate('email', e.target.value)} />
                                 </Col>
-                                <Col>
+                                <Col sm={12} className="px-1">
                                     <textarea row="6" name="message" value={formDetails.message} placeholder="Message" onChange={(e) => onFormUpdate('message', e.target.value)} />
+                                    <div style={{ textAlign: 'left' }}>
                                     <button type="submit" value="Send"><span>{buttonText}</span></button>
+                                </div>
                                 </Col>
                                 {
                                     status.message && 

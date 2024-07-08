@@ -347,18 +347,18 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
-/************ Projects Css ************/
-.projects {
+/************ Internships Css ************/
+.internships {
   padding: 80px 0;
   position: relative;
   background-color: black;
 }
-.projects h2 {
+.internships h2 {
 	font-size: 45px;
 	font-weight: 700;
   text-align: center;
 }
-.projects p {
+.internships p {
   color: #B8B8B8;
   font-size: 18px;
   letter-spacing: 0.8px;
@@ -367,17 +367,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
   width: 72%;
 }
-.projects .nav.nav-pills {
+.internships .nav.nav-pills {
   width: 72%;
   margin: 0 auto;
-  border-radius: 50px;
   background-color: rgb(255 255 255 / 10%);
   overflow: hidden;
 }
-.projects .nav.nav-pills .nav-item {
+.internships .nav.nav-pills .nav-item {
   width: 50%;
 }
-.projects .nav.nav-pills .nav-link {
+.internships .nav.nav-pills .nav-link {
   background-color: transparent;
   border-radius: 0;
   padding: 17px 0;
@@ -391,7 +390,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
   z-index: 0;
 }
-.projects .nav.nav-pills .nav-link::before {
+.internships .nav.nav-pills .nav-link::before {
     content: "";
     position: absolute;
     width: 0;
@@ -402,24 +401,21 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     z-index: -1;
     transition: 0.3s ease-in-out;
 }
-.projects .nav.nav-pills .nav-link.active::before {
+.internships .nav.nav-pills .nav-link.active::before {
     width: 100% !important;
 }
-.projects .nav.nav-pills .nav-link.active {
-    border: 1px solid rgba(255, 255, 255, 1);
+.internships .nav.nav-pills .nav-link.active {
+    border: none;
 }
-.nav-link#projects-tabs-tab-first {
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 55px 0px 0px 55px;
+.nav-link#internships-tabs-tab-first,
+.nav-link#internships-tabs-tab-second,
+.nav-link#internships-tabs-tab-third,
+.nav-link#internships-tabs-tab-fourth {
+  border: 1px solid #ffffff;
+  border-radius: 0;
+  background-color: #000000;
 }
-.nav-link#projects-tabs-tab-second {
-  border-top: 1px solid rgba(255, 255, 255, 0.5);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-}
-.nav-link#projects-tabs-tab-third {
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 0 55px 55px 0;
-}
+
 .proj-imgbx {
   position: relative;
   border-radius: 30px;
