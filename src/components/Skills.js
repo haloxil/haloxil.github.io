@@ -60,7 +60,7 @@ export const Skills = () => {
                             </div>
                             <div className="item">
                                 <img src={kubernetes} alt="Kubernetes" style={imageStyle} />
-                                <h5 style={textStyle}>Kubernetes</h5>
+                                <h5 style={textStyle}>K8s</h5>
                             </div>
                             <div className="item">
                                 <img src={terraform} alt="Terraform" style={imageStyle} />
